@@ -8,7 +8,6 @@
 		:value="value"
 
 		autocomplete="nope"
-		v-model="localValue"
 
 		@input="inputValue($event.target)"
 		@blur="$emit('blur', $event.target.value)"
@@ -33,7 +32,6 @@ export default {
 	],
 	data: () => ({
 		type: 'text',
-		localValue: ''
 	}),
 	computed: {
 		setClassInput() {
