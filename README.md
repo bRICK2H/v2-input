@@ -1,4 +1,4 @@
-# Vue-custom-select
+# v2-input
 
 ### $props:
 | Name 					| Type 					| Default 		| Description |
