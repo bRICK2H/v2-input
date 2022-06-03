@@ -183,10 +183,6 @@ export default {
         &--focus {
             border: 2px solid #d6d5dd;
         }
-
-        @media screen and (max-width: 540px) {
-            height: 36px !important;
-        }
     }
     .v2i-icon {
         position: absolute;
